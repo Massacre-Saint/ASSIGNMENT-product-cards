@@ -1,0 +1,74 @@
+body {
+  margin: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+  background-image: linear-gradient(rgba(183, 78, 109,.7),#35281d);
+  color: #e5c3d1;
+}
+h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+span {
+  background-color: rgb(103, 102, 102);
+  color: yellow;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.card {
+  border: 1px solid #add8e6;
+  border-radius: 10px;
+}
+.card-body p {
+  text-align: justify;
+}
+.card-body {
+  padding: 1rem 0rem 1rem 0rem;
+}
+.product-descript > p {
+  padding: 1rem 1rem 0rem 1rem;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 30px 20px;
+}
+.card {
+  flex-basis: 30%;
+  background-color: #57737A;
+}
+
+h5 {
+  font-size: 1.3rem;
+  margin-bottom: 0px;
+  margin-left: .5rem;
+}
+.list-group-item {
+  margin: 0px;
+  padding:.5rem 0px 0px 0px;
+  /* border:none; */
+}
+.card > .list-group {
+  /* border: none; */
+}
+li {
+  list-style: none;
+  font-weight: bold;
+}
+li p {
+  font-size: .8rem;
+  margin: 0rem 0rem 0rem 0.8rem;
+}
+footer > p {
+font-size: 10px;
+margin: 0px;
+padding:0px 0px 0px 0px;
+}
+section {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+  
